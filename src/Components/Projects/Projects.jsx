@@ -130,7 +130,7 @@ const handleClickProject2=()=>{
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/banner-2000-650_2000x.png?v=1663755002"
+                  src="https://im4.ezgif.com/tmp/ezgif-4-279fd01947.gif"
                   alt=""
                 />
               </div>
@@ -208,7 +208,7 @@ const handleClickProject2=()=>{
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/banner-2000-650_2000x.png?v=1663755002"
+                  src="https://im4.ezgif.com/tmp/ezgif-4-7d69c9e6a2.gif"
                   alt=""
                 />
               </div>

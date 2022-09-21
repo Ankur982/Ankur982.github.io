@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a777d9dc.chunk.css",
+    "main.js": "/static/js/main.dca04844.chunk.js",
+    "main.js.map": "/static/js/main.dca04844.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a3645242.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a3645242.js.map",
+    "static/css/2.95d02a1e.chunk.css": "/static/css/2.95d02a1e.chunk.css",
+    "static/js/2.f3210d8b.chunk.js": "/static/js/2.f3210d8b.chunk.js",
+    "static/js/2.f3210d8b.chunk.js.map": "/static/js/2.f3210d8b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.95d02a1e.chunk.css.map": "/static/css/2.95d02a1e.chunk.css.map",
+    "static/css/main.a777d9dc.chunk.css.map": "/static/css/main.a777d9dc.chunk.css.map",
+    "static/js/2.f3210d8b.chunk.js.LICENSE.txt": "/static/js/2.f3210d8b.chunk.js.LICENSE.txt",
+    "static/media/Ankur-Singh-Resume.2734e58f.pdf": "/static/media/Ankur-Singh-Resume.2734e58f.pdf",
+    "static/media/profile-pic (1).28a59b86.png": "/static/media/profile-pic (1).28a59b86.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3645242.js",
+    "static/css/2.95d02a1e.chunk.css",
+    "static/js/2.f3210d8b.chunk.js",
+    "static/css/main.a777d9dc.chunk.css",
+    "static/js/main.dca04844.chunk.js"
+  ]
+}

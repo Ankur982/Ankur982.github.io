@@ -13,6 +13,7 @@
     "@material-ui/icons": "4.11.2",
     "@merc/react-timeline": "^0.1.42",
     "aos": "2.3.4",
+    "emailjs-com": "^3.2.0",
     "framer-motion": "^7.3.6",
     "prop-types": "15.7.2",
     "react": "17.0.2",

@@ -20,7 +20,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A passionate and Quick learner Full Stack Software Developer with 1200+ hours hands on Coding experience and  having an experience of building Web applications with JavaScript | Reactjs | Nodejs | MongoDb | Redux
+          A Passionate and Quick learner Full Stack Software Developer with 1200+ hours hands on Coding experience and  having an experience of building Web applications with JavaScript | Reactjs | Nodejs | MongoDb | Redux
           and some other cool libraries and frameworks.
         </p>
         <div className="about__contact center">

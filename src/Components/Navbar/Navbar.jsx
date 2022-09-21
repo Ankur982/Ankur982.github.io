@@ -88,7 +88,7 @@ export const Navbar = () => {
           onClick={toggeltheme}
           className="btn btn--icon nav__theme"
           aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" }}
+          style={{ backgroundColor: "inherit" ,marginBottom:"20px" }}
         >
           {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>

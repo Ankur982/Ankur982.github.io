@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.edf5dfeb.chunk.css",
-    "main.js": "/static/js/main.fbe3ea03.chunk.js",
-    "main.js.map": "/static/js/main.fbe3ea03.chunk.js.map",
+    "main.js": "/static/js/main.128b22b3.chunk.js",
+    "main.js.map": "/static/js/main.128b22b3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a3645242.js",
     "runtime-main.js.map": "/static/js/runtime-main.a3645242.js.map",
     "static/css/2.95d02a1e.chunk.css": "/static/css/2.95d02a1e.chunk.css",
@@ -13,6 +13,9 @@
     "static/css/main.edf5dfeb.chunk.css.map": "/static/css/main.edf5dfeb.chunk.css.map",
     "static/js/2.cd20849f.chunk.js.LICENSE.txt": "/static/js/2.cd20849f.chunk.js.LICENSE.txt",
     "static/media/Ankur-Singh-Resume.2734e58f.pdf": "/static/media/Ankur-Singh-Resume.2734e58f.pdf",
+    "static/media/Boat.f5500fcd.gif": "/static/media/Boat.f5500fcd.gif",
+    "static/media/Ideakart.f7abff56.gif": "/static/media/Ideakart.f7abff56.gif",
+    "static/media/Skinstore.525ac477.gif": "/static/media/Skinstore.525ac477.gif",
     "static/media/profile-pic (1).28a59b86.png": "/static/media/profile-pic (1).28a59b86.png"
   },
   "entrypoints": [
@@ -20,6 +23,6 @@
     "static/css/2.95d02a1e.chunk.css",
     "static/js/2.cd20849f.chunk.js",
     "static/css/main.edf5dfeb.chunk.css",
-    "static/js/main.fbe3ea03.chunk.js"
+    "static/js/main.128b22b3.chunk.js"
   ]
 }

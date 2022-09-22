@@ -12,6 +12,9 @@ import {
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
+import Boat from "../../Assets/images/Boat.gif";
+import Skinstore from "../../Assets/images/Skinstore.gif";
+import Ideakart from "../../Assets/images/Ideakart.gif";
 export const Projects = () => {
 const [project1, setProject1]= useState(false);
 const [project2, setProject2]= useState(false);
@@ -58,7 +61,7 @@ const handleClickProject2=()=>{
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://im4.ezgif.com/tmp/ezgif-4-88119d6ac1.gif"
+                  src={Boat}
                   alt=""
                 />
               </div>
@@ -130,7 +133,7 @@ const handleClickProject2=()=>{
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://im4.ezgif.com/tmp/ezgif-4-279fd01947.gif"
+                  src={Skinstore}
                   alt=""
                 />
               </div>
@@ -208,7 +211,7 @@ const handleClickProject2=()=>{
             <div className="project_videocontainer">
               <div data-aos="fade-right">
                 <img
-                  src="https://im4.ezgif.com/tmp/ezgif-4-7d69c9e6a2.gif"
+                  src={Ideakart}
                   alt=""
                 />
               </div>

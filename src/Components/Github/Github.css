@@ -1,0 +1,27 @@
+.github-overview-container{
+    display: flex;
+    margin: auto;
+  padding-top: 2em;
+}
+
+.github-overview-box{
+    margin: auto;
+}
+
+.github-overview-img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+    .github-overview-container{
+        display: block;
+        margin: auto;
+        padding-top: 2em;
+    }
+
+    .github-overview-box{
+        padding: 20px 10px;
+    }
+  }

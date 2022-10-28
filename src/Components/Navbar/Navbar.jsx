@@ -45,11 +45,29 @@ export const Navbar = () => {
           </li>
           <li className="nav__list-item">
             <a
+              href="#timeline"
+              onClick={() => toggleNavList("#timeline")}
+              className="link link--nav"
+            >
+              Timeline
+            </a>
+          </li>
+          <li className="nav__list-item">
+            <a
               href="#skills"
               onClick={() => toggleNavList("#skills")}
               className="link link--nav"
             >
               Skills
+            </a>
+          </li>
+          <li className="nav__list-item">
+            <a
+              href="#github"
+              onClick={() => toggleNavList("#github")}
+              className="link link--nav"
+            >
+              Github
             </a>
           </li>
           <li className="nav__list-item">
@@ -88,7 +106,6 @@ export const Navbar = () => {
           onClick={toggeltheme}
           className="btn btn--icon nav__theme"
           aria-label="toggle theme"
-          style={{ backgroundColor: "inherit" ,marginBottom:"20px" }}
         >
           {themename === "dark" ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
         </button>

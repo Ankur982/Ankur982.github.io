@@ -1,7 +1,12 @@
 
+/* marginTop:"50px", width:"50%",  backgroundPosition:"center", backgroundSize:"cover", backgroundColor:"#2978b5" */
   #project {
-    width: 100%;
+    width: 60%;
     margin: auto;
+    margin-top: 50px;
+    background-position: center;
+    background-size: cover;
+    background-color: #2978b5;
     box-shadow: var(--shadow);
     display: flex;
     border-radius: 30px;
@@ -14,3 +19,31 @@
     box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
       rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   }
+  /* style={{margin: "25px 85px 75px 100px"}} */
+  .row{
+    margin: 25px 85px 75px 100px;
+  }
+
+  .btn{
+    margin-top: 30px;
+    padding: 5px 0;
+  }
+
+  @media (max-width: 900px) {
+    #project{
+      width: 70%;
+    }
+    .row{
+      margin: 25px;
+    }
+  }
+  
+
+  @media (max-width: 600px) {
+    #project{
+      width: 90%;
+    }
+  }
+
+  
+  

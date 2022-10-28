@@ -117,7 +117,7 @@ const handleClickProject2=()=>{
             <ul className="list-styles pt-1">
             <li>Provide end-to-end product purchasing flow from the store.</li>
             <li>Logging and Signup functionality by backend API. </li>
-            <li>Product item with Modal Effect</li>
+            <li>Product item with Modal Effect.</li>
             </ul>
             </div>
            
@@ -185,14 +185,14 @@ const handleClickProject2=()=>{
             <h2>Features:</h2>
             <ul className="list-styles pt-1">
             <li>Provide end-to-end product purchasing flow from the store.</li>
-            <li>Logging and Signup functionality using local storage </li>
-            <li>Discount coupon | Payment |Sorting |Filtering functionality</li>
+            <li>Logging and Signup functionality using local storage. </li>
+            <li>Discount coupon | Payment |Sorting |Filtering functionality.</li>
             <li>Homepage category slider | Navbar hover category.</li>
             </ul>
 
           <h2>My Contribution:</h2>
           <ul className="list-styles pt-1">
-          <li>I created the landing page, Navbar section with hover subcategory of product, Footer section, Cart page Cart page with fully dynamics, Payment page using local storage</li>
+          <li>I created the landing page, Navbar section with hover subcategory of product, Footer section, Cart page Cart page with fully dynamics, Payment page using local storage.</li>
           <li>Dropdown of user Dashboard with multiple dynamics pages eg: Wishlist, OrderPage, Referral, Order History.</li>
           <li>Cart Page are fully dynamics and I created multiple unique coupons for discount.</li>
           </ul>
@@ -264,7 +264,7 @@ const handleClickProject2=()=>{
 
             <h2>Features:</h2>
             <ul className="list-styles pt-1">
-              <li>Sign-in | sign-up | Add to cart | Discount functionality</li>
+              <li>Sign-in | sign-up | Add to cart | Discount functionality.</li>
               <li>Discount coupon | Payment |Sorting |Filtering functionality.</li>
               <li>Option of adding a product by the user and He can track the status of the uploaded product on Deshboard page and user will get a notification of their product status.</li>
               <li>Admin page with Authority to accept or reject uploaded project.</li>
@@ -272,7 +272,7 @@ const handleClickProject2=()=>{
 
           <h2>My Contribution:</h2>
           <ul className="list-styles pt-1">
-            <li>I created the landing page, Navbar section , Footer section, Cart page with fully dynamics, Payment page using local storage</li>
+            <li>I created the landing page, Navbar section , Footer section, Cart page with fully dynamics, Payment page using local storage.</li>
             <li>Cart Page are fully dynamics and I created multiple unique coupons for discount.</li>
             <li>User Dashboard page with Dropdown of multiplal dynamics pages.</li>
           </ul>

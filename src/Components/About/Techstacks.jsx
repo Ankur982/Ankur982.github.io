@@ -9,9 +9,13 @@ import {
   SiRedis,
   SiChakraui,
   SiPostman,
-  SiStyledcomponents
+  SiStyledcomponents,
+  SiNetlify,
+  SiSocketdotio,
+  SiFirebase,
+  SiVisualstudiocode
 } from "react-icons/si";
-import { DiCss3, DiMongodb, DiNpm } from "react-icons/di";
+import { DiCss3, DiHeroku, DiMongodb, DiNpm, DiRedis } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
@@ -82,7 +86,35 @@ export const Techstacks = () => {
             <SiPostman />
             <h5>Post Man</h5>
           </div>
+          <div>
+            <SiStyledcomponents />
+            <h5>Styled com.</h5>
+          </div>
+          <div>
+            <DiHeroku />
+            <h5>Heroku</h5>
+          </div>
         
+          <div>
+            <SiNetlify />
+            <h5>Netlify</h5>
+          </div>
+          <div>
+            <DiRedis />
+            <h5>Redis</h5>
+          </div>
+          <div>
+            <SiSocketdotio />
+            <h5>Socket.io</h5>
+          </div>
+          <div>
+            <SiFirebase />
+            <h5>Firebase</h5>
+          </div>
+          <div>
+            <SiVisualstudiocode />
+            <h5>VS Code</h5>
+          </div>
         </div>
       </div>
     </div>

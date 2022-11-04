@@ -7,19 +7,23 @@ import {
   SiHtml5,
   SiMaterialui,
   SiJavascript,
-  SiChakraui
+  SiChakraui,
+  SiReduxsaga,
+  SiMongodb,
+  SiExpress
 } from "react-icons/si";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiHeroku } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 import Boat from "../../Assets/images/Boat.gif";
 import Skinstore from "../../Assets/images/Skinstore.gif";
 import Ideakart from "../../Assets/images/Ideakart.gif";
+import Getharvest from "../../Assets/images/Getharvest.gif";
 export const Projects = () => {
-const [project1, setProject1]= useState(false);
-const [project2, setProject2]= useState(false);
-const [project3, setProject3]= useState(false);
-
+const [project1, setProject1]= useState(true);
+const [project2, setProject2]= useState(true);
+const [project3, setProject3]= useState(true);
+const [project4, setProject4]= useState(true);
 
 const handleClickProject1=()=>{
   if(project1){
@@ -48,12 +52,99 @@ const handleClickProject2=()=>{
     }
     
   }
+
+  const handleClickProject4=()=>{
+    if(project4){
+      setProject4(false)
+    }else{
+      setProject4(true)
+    }
+    
+  }
   return (
     <>
       <div className="section">
         <h2 className="section__title different" data-aos="fade-right">
           Projects
         </h2>
+
+        {/* harvest.com */}
+
+        <div className="projects_container">
+          <div className="project">
+            <div className="project_videocontainer">
+              <div data-aos="fade-right">
+                <img
+                  src={Getharvest}
+                  alt=""
+                />
+              </div>
+            </div>
+            <div className="project_information" data-aos="fade-right">
+              <h2>getharvest.com | Clone</h2>
+              <p>
+              Groups Project: 05 Collaborators | Duration: 04 Days
+              </p>
+              <div>
+                <span>Tech Stack:</span>
+                <FaReact />
+                <SiJavascript />
+                <SiRedux />
+                <SiMongodb />
+                <SiExpress />
+                <SiChakraui />
+                <DiHeroku/>
+              </div>
+              <div>
+              <span type="button" className="btn btn--outline" onClick={handleClickProject4}>
+                    {project4? "Hide Details" : "Show Details"}
+                    
+                  </span>
+                <a
+                  href="https://myharvest2.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline onbt">
+                    See this Live
+                  </span>
+                </a>
+                <a
+                  href="https://github.com/shabazalimalik69/afraid-shoe-4639"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <span type="button" className="btn btn--outline">
+                    View Code
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+          {project4? <div className="details">
+            <div>
+            <h2>Description:</h2>
+            <p>A web application to track the time, expenses ,budget of projects.</p>
+
+            <h2>Features:</h2>
+            <ul className="list-styles pt-1">
+            <li>Provided end-to-end flow of the application.</li>
+            <li>Logging and Signup functionality using MongoDb server. </li>
+            <li>Provided the functionality to Users who can add their projects with details of budgets and duration of projects.</li>
+            <li>Provided the functionality to Users who can add expenses and details for any particular project.</li>
+            <li>Created MongoDB server to store the data of user's details and projects and their expanses.</li>
+            </ul>
+          <h2>My Contribution:</h2>
+          <ul className="list-styles pt-1">
+          <li>I built the navbar, footer, landing, integrations, and pricing pages with responsiveness for different screen sizes and linking of every page.</li>
+          <li>I created the functionality of Authentication with Gmail id.</li>
+          <li>Designed the database for the application using Express & MongoDB.</li>
+          </ul>
+            </div>
+          </div>:null}
+          </div>
+        </div>
 
         {/* Boatlife Style */}
         <div className="projects_container">
@@ -115,8 +206,8 @@ const handleClickProject2=()=>{
 
             <h2>Features:</h2>
             <ul className="list-styles pt-1">
-            <li>Provide end-to-end product purchasing flow from the store.</li>
-            <li>Logging and Signup functionality by backend API. </li>
+            <li>Provided end-to-end product purchasing flow from the store.</li>
+            <li>Login and Signup functionality by backend API. </li>
             <li>Product item with Modal Effect.</li>
             </ul>
             </div>
@@ -184,8 +275,8 @@ const handleClickProject2=()=>{
 
             <h2>Features:</h2>
             <ul className="list-styles pt-1">
-            <li>Provide end-to-end product purchasing flow from the store.</li>
-            <li>Logging and Signup functionality using local storage. </li>
+            <li>Provided end-to-end product purchasing flow from the store.</li>
+            <li>Login and Signup functionality using local storage. </li>
             <li>Discount coupon | Payment |Sorting |Filtering functionality.</li>
             <li>Homepage category slider | Navbar hover category.</li>
             </ul>

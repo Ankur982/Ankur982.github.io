@@ -5,8 +5,8 @@
   width: 100%;
   text-align: center;
   background-color: var(--clr-bg);
-  height: 65vh;
-  max-height: 500px;
+  height: 92vh;
+  /* max-height: 1200px; */
 }
 
 .techsection > div {
@@ -46,7 +46,7 @@
 
 @media (max-width: 600px) {
   .techsection {
-    height: 180vh;
+    height: 230vh;
   }
   .techsection > div {
     width: 40%;

@@ -31,7 +31,7 @@ return (
     </div>
     <div className="section" data-aos="fade-right">
       <h2 className="section__title">
-      Github <span className="different"> Overview</span>
+        Days I <span className="different"> Code on Github</span>
       </h2>
       <div className="githubcal-overview-box">
       <Githubcalendar username="Ankur982" blockSize={15} blockMargin={5} theme={colourTheme} fontSize={16}/>

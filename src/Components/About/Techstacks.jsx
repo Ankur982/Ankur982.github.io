@@ -18,7 +18,7 @@ import { BsBootstrap } from "react-icons/bs";
 
 export const Techstacks = () => {
   return (
-    <>
+    <div>
       <div className="section main">
         <h2 className="section__title different">Skills | Tools</h2>
         <div className="techsection">
@@ -85,6 +85,6 @@ export const Techstacks = () => {
         
         </div>
       </div>
-    </>
+    </div>
   );
 };

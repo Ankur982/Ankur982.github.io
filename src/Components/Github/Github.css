@@ -1,18 +1,52 @@
+
 .github-overview-container{
     display: flex;
-    margin: auto;
-  padding-top: 2em;
+    width: 100%;
+    margin: 0 auto;
+    gap: 50px;
+    display: flex;
+    border-radius: 30px;
+    transition: all 0.5s ease 0s;
+ 
 }
 
 .github-overview-box{
     margin: auto;
+    box-shadow: var(--shadow);
+    padding: 10px;
+    border-radius: 30px;
 }
+
+.github-overview-box:hover {
+    transform: scale(1.04);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
 
 .github-overview-img{
     width: 100%;
     display: block;
     margin: auto;
+    border: 5px solid var(--clr-primary);
+    border-radius: 30px;
 }
+
+
+.githubcal-overview-box{
+    margin: auto;
+    box-shadow: var(--shadow);
+    padding: 30px;
+    border-radius: 30px;
+    border: 5px solid var(--clr-primary);
+}
+.githubcal-overview-box:hover {
+    transform: scale(1.04);
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+
 
 @media (max-width: 600px) {
     .github-overview-container{

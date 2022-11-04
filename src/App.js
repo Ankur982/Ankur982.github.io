@@ -19,15 +19,17 @@ export default function App() {
   }, []);
   return (
     <div id="top" className={`${themename} app`}>
-      <section id="#home">
+      <section id="#home" style={{ position: "sticky", top: "0px", zIndex: "1" }
+}>
         <Header />
       </section>
       <main>
         <About />
-        <section id="#github">
+        <section id="#github" style={{ marginTop:"50px"}
+}>
         <Github />
         </section>
-        <section id="#projects">
+        <section id="#projects" style={{ marginTop:"50px"}}>
           <Projects />
         </section>
         <section id="#contact">

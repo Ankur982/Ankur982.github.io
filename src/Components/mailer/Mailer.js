@@ -8,8 +8,10 @@ export const Mailer = () => {
 
         emailjs.sendForm('service_pixbprz','template_72chx0t',e.target,'yYiOdE_iF-WzN1o_A').then(res=>{
             alert("Email sent to Ankur")
+            e.target.reset()
             console.log(res)
         }).catch(err=>{
+            alert("Technical Error")
             console.log(err)
         })
     }

@@ -210,7 +210,7 @@ export const Projects = () => {
                   {project5 ? "Hide Details" : "Show Details"}
                 </span>
                 <a
-                  href="sephora-pink.vercel.app/"
+                  href="https://sephora-pink.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

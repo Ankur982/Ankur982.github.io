@@ -61,7 +61,7 @@ export const About = () => {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1SADa2Ao8YWmh8pLqAHKqMkBbu8ObeIFD/view?usp=share_link"
+            href="https://drive.google.com/file/d/1aB9B1ARoUhTO7v3TRaAaxUhiaPdDlK7B/view?usp=share_link"
             aria-label="github"
             className="link link--icon"
             target="_blank"

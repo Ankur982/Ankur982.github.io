@@ -71,9 +71,9 @@ export const Projects = () => {
   return (
     <>
       <div className="section">
-        <h2 className="section__title different" data-aos="fade-right">
-          Projects
-        </h2>
+      <h2 className="section__title">
+        Major <span className="different"> Projects</span>
+      </h2>
 
 
         {/* harvest.com */}

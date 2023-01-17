@@ -12,6 +12,7 @@ import { Contact } from "./Components/Contact/Contact";
 import { Footer } from "./Components/Footer/Footer";
 import { ScrollToTop } from "./Components/ScrollToTop/ScrollToTop";
 import { Mailer } from "./Components/mailer/Mailer";
+import { Experience } from "./Components/Experience/Experience";
 export default function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   React.useEffect(() => {
@@ -28,6 +29,7 @@ export default function App() {
         <section id="#github" style={{ marginTop:"50px"}
 }>
         <Github />
+        <Experience />
         </section>
         <section id="#projects" style={{ marginTop:"50px"}}>
           <Projects />

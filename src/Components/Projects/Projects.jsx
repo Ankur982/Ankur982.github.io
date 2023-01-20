@@ -210,7 +210,7 @@ export const Projects = () => {
                   {project5 ? "Hide Details" : "Show Details"}
                 </span>
                 <a
-                  href="https://sephora-pink.vercel.app/"
+                  href="https://client-seven-nu.vercel.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -250,7 +250,7 @@ export const Projects = () => {
                     Product filtering, sorting, pagination functionality and single product page.
                     </li>
                     <li>
-                      Provided the functionality to Users who can add product in wishlist, order and track their  details.
+                      Provided the functionality to Users who can add product in wishlist, order, cart and track their  details.
                     </li>
                     <li>
                       Created MongoDB server to store products, users details and created relationship of order, wishlist and cart products.
@@ -259,7 +259,7 @@ export const Projects = () => {
                   <h2>My Contribution:</h2>
                   <ul className="list-styles pt-1">
                     <li>
-                      I built the navbar, footer, landing, account, wishlist, order page.
+                      I built the navbar, footer, landing, account, wishlist, order, cart page .
                     </li>
                     <li>
                       Created the functionality of wishlist's, order's, cart's product details of perticular user.

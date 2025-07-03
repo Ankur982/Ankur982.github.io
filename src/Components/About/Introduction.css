@@ -1,8 +1,7 @@
 .introduction {
   width: 100%;
   display: flex;
-  margin-top: 4em;
-  margin-bottom: 4em;
+
 }
 
 .different {
@@ -13,13 +12,14 @@
   flex-basis: 45%;
   display: flex;
   justify-content: center;
+ 
   
 }
 
 .introduction_logocontainer > img {
-  width: 80%;
-  margin-right:60px ;
-  margin-bottom: 50px;
+  width: 70%;
+   border-radius: 50%;
+  margin-right:3em ;
 }
 
 .introduction_datacontainer {

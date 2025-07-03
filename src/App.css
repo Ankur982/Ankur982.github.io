@@ -16,14 +16,28 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  /* Backgrounds */
+  --clr-bg: #151a1e;         /* Deep Charcoal Black */
+  --clr-bg-alt: #1f262d;     /* Dark Slate Gray */
+
+  /* Foreground / Text */
+  --clr-fg: #f0f4f8;         /* Bright Cool White */
+  --clr-fg-alt: #c0d3df;     /* Icy Light Blue-Gray */
+
+  /* Primary Accent */
+  --clr-primary: #00bcd4;    /* Vibrant Cyan (Teal/Blue Blend) */
+
+  /* Secondary Accent (Optional for hover/focus) */
+  --clr-secondary: #ff4081;  /* Vivid Pink - use for contrast or alerts */
+
+  /* Shadow Depth */
+  --shadow:
+    0 4px 24px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(0, 188, 212, 0.1);  /* Subtle glow from cyan accent */
 }
+
+
+
 
 main {
   max-width: 1100px;
@@ -74,7 +88,7 @@ main {
 
 .link--nav {
   color: var(--clr-fg);
-  font-weight: 500;
+  font-weight: 100;
 }
 
 .link--icon {
@@ -82,6 +96,7 @@ main {
 }
 
 .btn {
+  margin-bottom: 2.1em;
   display: block;
   cursor: pointer;
   padding: 0.8em 1.4em;

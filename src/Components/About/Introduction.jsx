@@ -21,13 +21,13 @@ export const Introduction = () => {
               <h4>
                 Hi Everyone, I am{" "}
                 <span className="different">Ankur Singh </span> from{" "}
-                <span className="different">Gorakhpur, Uttar Pradesh</span>. I have
-                completed my graduation in Mechanical Engineering from
-                Galgotias University, Greater Noida.
+                <span className="different">Gorakhpur, Uttar Pradesh</span>.  I’m currently pursuing an Executive Post Graduate Certification in Cyber Security and Ethical Hacking from iHub DivyaSampark – IIT Roorkee. I also hold a B.Tech in Mechanical Engineering from Galgotias University, Greater Noida.
+
                 
               </h4>
               <h4>
-                Apart from coding, some other activities that I love to do.....!
+                
+I’m passionate about cybersecurity, with hands-on experience in incident response, threat hunting, and security operations. Beyond cybersecurity and coding, I enjoy:
               </h4>
               <h4 className="different">
                 <span className="icons">
@@ -39,19 +39,19 @@ export const Introduction = () => {
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Solving Problems{" "}
+                Solving challenging problems{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Learning New Techniques{" "}
+                Exploring new technologies and techniques{" "}
               </h4>
               <h4 className="different">
                 <span className="icons">
                   <ExitToAppIcon />
                 </span>
-                Travelling{" "}
+                Traveling and discovering new places{" "}
               </h4>
             </div>
           </div>

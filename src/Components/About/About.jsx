@@ -20,8 +20,10 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          A Passionate and Quick learner Full Stack Web Developer with 1200+ hours hands on Coding experience and  having an experience of building Web applications with JavaScript | Reactjs | Nodejs | MongoDb | Redux
-          and some other cool libraries and frameworks.
+          A Cybersecurity Analyst with hands-on experience in incident response, threat hunting, and SIEM/XDR-based security operations, currently working at PwC India.
+I specialize in Microsoft Sentinel, Defender XDR, and Logic Apps automation to streamline threat detection and response workflows.
+With a strong foundation in the MITRE ATT&CK framework, threat intelligence, and KQL-driven analytics, I help organizations proactively strengthen their security posture.
+Additionally, my background in full-stack development (MERN) enables me to bridge the gap between application security and operational efficiency.
         </p>
         <div className="about__contact center">
           <a

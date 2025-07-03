@@ -33,7 +33,7 @@ export const Timeline = () => {
         <VerticalTimeline lineColor={linecolor}>
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"April 2022 - Present"}
+            date={"June 2025 - Current"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -51,15 +51,38 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              FULL-STACK WEB DEVELOPMENT
+              Executive Post Graduate Certification in Cyber Security and Ethical Hacking
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
+  
+            <p data-aos="fade-right">iHub DivyaSampark - IIT Roorkee</p>
+          </VerticalTimelineElement>
+
+           <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            date={"April 2022 - March 2023"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`
+            }}
+            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
+            iconStyle={{
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`
+            }}
+            icon={<SchoolIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Masai School, Karnataka, Bangalore
-            </h4>
+             Full-Stack Web Development with a Specialization in the MERN Stack
+            </h3>
+  
+            <p data-aos="fade-right">Masai Scool, Bengaluru</p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={"August 2016 - June 2020"}
@@ -80,19 +103,16 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              B.TECH. IN MECHANICAL ENGINEERING
+             B.Tech in Mechanical Engineering
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Galgotias University, Greater Noida
-            </h4>
-            <p data-aos="fade-right">Secured 78%</p>
+  
+            <p data-aos="fade-right">Galgotias university, Greater Noida, U.P.</p>
           </VerticalTimelineElement>
+
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date={"Passout - May 2015"}
+            date={"March 2013 - May 2015"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               backgroundColor: `var(--clr-bg)`,
@@ -110,54 +130,11 @@ export const Timeline = () => {
               className="vertical-timeline-element-title"
               data-aos="fade-right"
             >
-              Intermediate
+              Senior Secondary (12th Grade)
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              {" "}
-              Saraswati Inter Collage Naharpur Gorakhpur
-            </h4>
-            <p data-aos="fade-right">Secured 75%</p>
+            <p data-aos="fade-right"> Saraswati Shishu Mandir Sr. Sec. Suryakund Gorakhpur, U.P.</p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date={"Passout- March 2013"}
-            contentStyle={{
-              boxShadow: `var(--shadow)`,
-              backgroundColor: `var(--clr-bg)`,
-              textAlign: "center",
-              color: `var(--clr-fg-alt)`
-            }}
-            contentArrowStyle={{ borderRight: "16px solid  rgb(33, 150, 243)" }}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
-            }}
-            icon={<SchoolIcon />}
-          >
-            <h3
-              className="vertical-timeline-element-title"
-              data-aos="fade-right"
-            >
-              Secondary School Certificate
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              data-aos="fade-right"
-            >
-              Saraswati Shishu Mandir Sr. Sec. Suryakund Gorakhpur
-            </h4>
-            <p data-aos="fade-right">Secured 8.2 CGPA</p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            icon={<StarRateIcon />}
-            iconStyle={{
-              backgroundColor: `var(--clr-bg)`,
-              color: `var(--clr-primary)`
-            }}
-          ></VerticalTimelineElement>
+        
         </VerticalTimeline>
       </div>
     </>

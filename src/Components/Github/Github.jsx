@@ -22,8 +22,7 @@ return (
           <img className="github-overview-img" src="https://github-readme-stats.vercel.app/api?username=Ankur982&show_icons=true&locale=en&theme=tokyonight"/>
         </div>
         <div className="github-overview-box">
-          <img className="github-overview-img" src="https://github-readme-streak-stats.herokuapp.com/?user=Ankur982&show_icons=true&locale=en&theme=tokyonight
-"/>
+          <img className="github-overview-img" src="https://github-readme-streak-stats.herokuapp.com/?user=Ankur982&show_icons=true&locale=en&theme=tokyonight"/>
         </div>
       </div>
     </div>

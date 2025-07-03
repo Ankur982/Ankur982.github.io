@@ -2,31 +2,37 @@
   display: flex;
   justify-content: space-evenly;
   padding-top: 2em;
+  background-color: var(--clr-bg);
 }
 
 .contactcontainer svg {
   font-size: 3em;
   transition: all 0.5s ease-in-out 0s;
   color: var(--clr-primary);
+  filter: drop-shadow(var(--shadow));
 }
 .contactcontainer svg:hover {
   font-size: 4rem;
+  color: var(--clr-secondary); /* Adds vivid hover accent */
 }
+
+/* Icon-specific hover styles */
 .linkedin:hover {
-  color: #0a66c2;
+  color: #00bcd4 ;/* Optionally keep platform brand colors */
 }
 .github:hover {
-  color: black;
+  color: var(--clr-fg); /* Bright contrast instead of pure black */
 }
 .email:hover {
-  color: #d93025;
+  color: var(--clr-secondary);
 }
 .twitter:hover {
-  color: rgb(29, 155, 240);
+  color: var(--clr-primary); /* Keep consistent with theme */
 }
 .phone:hover {
-  color: rgb(49, 236, 49);
+  color: rgb(0, 255, 128); /* Optional: match vibrant vibe */
 }
+
 @media (max-width: 600px) {
   .contactcontainer svg {
     font-size: 2em;
